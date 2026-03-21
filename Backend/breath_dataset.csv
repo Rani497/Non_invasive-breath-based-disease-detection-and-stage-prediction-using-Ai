@@ -1,0 +1,301 @@
+acetone,ammonia,voc,humidity,temperature,diabetes,kidney,hydration
+0.41,1.98,176,72,34,Normal,High Risk,Hydrated
+0.52,0.98,136,66,34,Normal,Mild,Hydrated
+2.4,1.86,134,54,35,High Risk,High Risk,Moderate
+2.48,1.39,119,72,32,High Risk,Mild,Hydrated
+2.12,1.13,231,75,33,High Risk,Mild,Hydrated
+1.17,0.63,210,47,28,Mild,Normal,Moderate
+2.57,0.79,132,67,34,High Risk,Normal,Hydrated
+2.47,1.48,246,65,32,High Risk,Mild,Hydrated
+0.79,0.56,249,44,32,Normal,Normal,Dehydrated
+2.99,0.66,112,68,32,High Risk,Normal,Hydrated
+1.06,2.03,195,35,28,Mild,High Risk,Dehydrated
+1.32,0.72,241,57,34,Mild,Normal,Moderate
+0.48,1.28,187,54,35,Normal,Mild,Moderate
+0.37,1.24,211,67,33,Normal,Mild,Hydrated
+2.12,1.81,184,64,28,High Risk,High Risk,Hydrated
+0.46,1.14,115,62,35,Normal,Mild,Hydrated
+0.53,2.25,129,64,30,Normal,High Risk,Hydrated
+0.51,1.27,248,56,31,Normal,Mild,Moderate
+2.92,1.89,212,70,29,High Risk,High Risk,Hydrated
+0.55,0.5,212,58,30,Normal,Normal,Moderate
+2.72,0.6,197,51,32,High Risk,Normal,Moderate
+0.69,0.34,116,61,32,Normal,Normal,Hydrated
+1.65,1.63,232,73,30,Mild,High Risk,Hydrated
+0.43,2.39,129,40,31,Normal,High Risk,Dehydrated
+1.01,0.61,209,38,34,Mild,Normal,Dehydrated
+0.5,1.74,241,54,31,Normal,High Risk,Moderate
+0.45,2.11,184,69,30,Normal,High Risk,Hydrated
+0.68,2.15,103,60,28,Normal,High Risk,Moderate
+0.87,0.29,189,75,32,Normal,Normal,Hydrated
+1.02,1.4,217,65,34,Mild,Mild,Hydrated
+0.81,1.73,126,57,30,Normal,High Risk,Moderate
+1.25,0.73,193,65,35,Mild,Normal,Hydrated
+1.44,0.31,152,71,29,Mild,Normal,Hydrated
+1.71,1.67,161,74,35,Mild,High Risk,Hydrated
+1.17,1.1,169,69,28,Mild,Mild,Hydrated
+0.83,1.49,245,75,29,Normal,Mild,Hydrated
+0.68,1.05,109,54,29,Normal,Mild,Moderate
+1.58,1.65,197,35,29,Mild,High Risk,Dehydrated
+2.98,0.56,204,50,33,High Risk,Normal,Moderate
+1.16,1.34,107,73,30,Mild,Mild,Hydrated
+1.62,0.34,168,51,28,Mild,Normal,Moderate
+2.54,2.44,242,55,34,High Risk,High Risk,Moderate
+0.41,0.69,164,57,30,Normal,Normal,Moderate
+0.79,0.47,104,74,33,Normal,Normal,Hydrated
+0.66,0.28,247,53,33,Normal,Normal,Moderate
+1.08,2.37,233,44,28,Mild,High Risk,Dehydrated
+0.53,1.43,220,72,29,Normal,Mild,Hydrated
+2.32,0.49,174,48,28,High Risk,Normal,Moderate
+1.75,2.13,162,68,30,Mild,High Risk,Hydrated
+1.58,2.05,214,40,29,Mild,High Risk,Dehydrated
+0.89,2.24,152,40,35,Normal,High Risk,Dehydrated
+0.76,0.47,125,38,30,Normal,Normal,Dehydrated
+1.38,1.31,126,61,35,Mild,Mild,Hydrated
+0.35,0.27,136,51,32,Normal,Normal,Moderate
+2.05,1.67,192,70,34,High Risk,High Risk,Hydrated
+2.83,0.71,211,65,35,High Risk,Normal,Hydrated
+0.86,1.38,113,62,29,Normal,Mild,Hydrated
+0.52,1.46,159,54,30,Normal,Mild,Moderate
+0.3,1.21,100,38,31,Normal,Mild,Dehydrated
+0.78,0.26,247,67,32,Normal,Normal,Hydrated
+1.68,0.55,246,68,29,Mild,Normal,Hydrated
+1.65,0.47,239,40,30,Mild,Normal,Dehydrated
+0.6,0.73,248,37,32,Normal,Normal,Dehydrated
+2.51,1.62,209,69,35,High Risk,High Risk,Hydrated
+2.42,1.17,127,74,31,High Risk,Mild,Hydrated
+1.63,1.44,116,70,29,Mild,Mild,Hydrated
+0.45,1.9,219,53,28,Normal,High Risk,Moderate
+2.68,0.64,136,57,31,High Risk,Normal,Moderate
+0.67,0.91,195,74,33,Normal,Mild,Hydrated
+2.38,0.58,214,64,32,High Risk,Normal,Hydrated
+0.47,0.27,215,37,33,Normal,Normal,Dehydrated
+1.25,1.34,173,73,33,Mild,Mild,Hydrated
+0.89,2.04,208,57,32,Normal,High Risk,Moderate
+0.36,2.14,145,45,32,Normal,High Risk,Dehydrated
+1.26,1.29,120,51,33,Mild,Mild,Moderate
+1.78,1.03,178,56,34,Mild,Mild,Moderate
+1.5,2.35,116,46,34,Mild,High Risk,Moderate
+0.84,0.21,121,44,33,Normal,Normal,Dehydrated
+0.81,0.46,219,70,34,Normal,Normal,Hydrated
+0.38,1.0,169,46,31,Normal,Mild,Moderate
+1.11,1.46,219,53,33,Mild,Mild,Moderate
+1.35,0.74,249,56,29,Mild,Normal,Moderate
+0.56,0.41,109,55,33,Normal,Normal,Moderate
+0.85,0.57,153,63,31,Normal,Normal,Hydrated
+2.15,1.11,249,70,29,High Risk,Mild,Hydrated
+2.06,1.33,180,59,31,High Risk,Mild,Moderate
+2.58,0.22,135,57,29,High Risk,Normal,Moderate
+2.86,2.38,173,40,35,High Risk,High Risk,Dehydrated
+1.33,1.07,131,56,30,Mild,Mild,Moderate
+2.61,2.44,196,52,30,High Risk,High Risk,Moderate
+0.55,0.92,193,46,31,Normal,Mild,Moderate
+2.55,1.24,143,73,33,High Risk,Mild,Hydrated
+1.4,0.7,132,69,31,Mild,Normal,Hydrated
+0.72,1.87,245,53,32,Normal,High Risk,Moderate
+1.92,2.18,109,42,29,High Risk,High Risk,Dehydrated
+2.6,2.3,189,38,34,High Risk,High Risk,Dehydrated
+1.51,1.46,144,62,28,Mild,Mild,Hydrated
+2.71,1.04,112,56,35,High Risk,Mild,Moderate
+2.52,1.27,196,58,29,High Risk,Mild,Moderate
+0.51,0.75,150,67,35,Normal,Normal,Hydrated
+1.24,1.76,193,69,32,Mild,High Risk,Hydrated
+1.28,1.78,238,65,33,Mild,High Risk,Hydrated
+0.34,0.76,159,74,31,Normal,Normal,Hydrated
+0.61,0.51,182,37,33,Normal,Normal,Dehydrated
+0.89,2.02,170,62,32,Normal,High Risk,Hydrated
+1.69,1.33,169,57,33,Mild,Mild,Moderate
+0.42,1.13,157,35,34,Normal,Mild,Dehydrated
+1.33,0.36,159,58,29,Mild,Normal,Moderate
+1.22,0.68,152,55,34,Mild,Normal,Moderate
+0.33,1.12,241,74,30,Normal,Mild,Hydrated
+0.33,1.66,183,54,28,Normal,High Risk,Moderate
+0.77,0.8,227,66,29,Normal,Normal,Hydrated
+0.8,2.2,123,39,28,Normal,High Risk,Dehydrated
+0.63,0.22,185,67,33,Normal,Normal,Hydrated
+2.23,1.97,243,50,30,High Risk,High Risk,Moderate
+1.44,0.45,113,56,31,Mild,Normal,Moderate
+0.45,1.82,175,55,31,Normal,High Risk,Moderate
+2.76,0.25,136,48,28,High Risk,Normal,Moderate
+2.24,2.11,168,37,32,High Risk,High Risk,Dehydrated
+2.21,0.49,224,61,28,High Risk,Normal,Hydrated
+0.86,1.0,187,43,29,Normal,Mild,Dehydrated
+2.69,0.97,240,52,30,High Risk,Mild,Moderate
+2.35,2.14,247,37,30,High Risk,High Risk,Dehydrated
+2.15,1.33,148,49,34,High Risk,Mild,Moderate
+1.12,1.92,127,50,30,Mild,High Risk,Moderate
+1.54,1.01,241,53,35,Mild,Mild,Moderate
+0.47,2.06,248,51,29,Normal,High Risk,Moderate
+2.29,0.94,149,72,29,High Risk,Mild,Hydrated
+2.5,2.17,193,55,30,High Risk,High Risk,Moderate
+1.53,0.52,153,61,31,Mild,Normal,Hydrated
+2.33,0.46,146,70,28,High Risk,Normal,Hydrated
+0.35,1.43,247,65,34,Normal,Mild,Hydrated
+2.35,1.27,175,58,29,High Risk,Mild,Moderate
+1.72,1.49,158,66,30,Mild,Mild,Hydrated
+0.8,0.39,215,70,31,Normal,Normal,Hydrated
+1.11,0.27,215,63,28,Mild,Normal,Hydrated
+1.2,2.35,224,54,35,Mild,High Risk,Moderate
+2.99,0.77,133,48,32,High Risk,Normal,Moderate
+0.77,1.63,250,48,31,Normal,High Risk,Moderate
+0.57,0.61,202,72,33,Normal,Normal,Hydrated
+0.51,2.18,149,49,34,Normal,High Risk,Moderate
+2.97,1.0,219,49,30,High Risk,Mild,Moderate
+1.68,1.48,203,37,33,Mild,Mild,Dehydrated
+0.89,2.14,125,60,35,Normal,High Risk,Moderate
+1.48,2.35,200,69,34,Mild,High Risk,Hydrated
+2.33,1.21,114,74,33,High Risk,Mild,Hydrated
+0.31,1.9,164,43,32,Normal,High Risk,Dehydrated
+0.47,1.7,140,74,33,Normal,High Risk,Hydrated
+1.77,1.14,146,63,29,Mild,Mild,Hydrated
+1.75,1.1,219,75,33,Mild,Mild,Hydrated
+0.53,1.14,225,35,35,Normal,Mild,Dehydrated
+0.63,0.76,241,47,31,Normal,Normal,Moderate
+1.21,1.82,110,39,29,Mild,High Risk,Dehydrated
+2.07,2.27,151,73,35,High Risk,High Risk,Hydrated
+2.27,2.14,182,53,31,High Risk,High Risk,Moderate
+1.14,1.01,225,66,34,Mild,Mild,Hydrated
+1.08,1.16,105,52,29,Mild,Mild,Moderate
+2.4,0.72,200,55,30,High Risk,Normal,Moderate
+1.29,0.3,245,70,32,Mild,Normal,Hydrated
+2.93,2.11,125,62,29,High Risk,High Risk,Hydrated
+0.37,1.03,195,39,30,Normal,Mild,Dehydrated
+1.57,0.36,243,62,28,Mild,Normal,Hydrated
+0.77,0.23,249,72,31,Normal,Normal,Hydrated
+0.65,0.61,202,64,31,Normal,Normal,Hydrated
+1.28,2.1,227,64,32,Mild,High Risk,Hydrated
+2.94,0.56,102,74,35,High Risk,Normal,Hydrated
+1.58,0.73,117,61,28,Mild,Normal,Hydrated
+1.16,1.3,164,57,28,Mild,Mild,Moderate
+0.34,2.0,110,55,34,Normal,High Risk,Moderate
+1.73,1.7,142,36,35,Mild,High Risk,Dehydrated
+2.79,0.77,107,67,35,High Risk,Normal,Hydrated
+0.52,1.36,167,46,28,Normal,Mild,Moderate
+0.72,1.91,177,47,34,Normal,High Risk,Moderate
+1.2,2.42,186,59,35,Mild,High Risk,Moderate
+0.62,2.28,129,51,32,Normal,High Risk,Moderate
+1.02,2.41,100,42,33,Mild,High Risk,Dehydrated
+2.61,2.31,120,58,33,High Risk,High Risk,Moderate
+2.67,0.71,170,69,28,High Risk,Normal,Hydrated
+2.84,0.55,114,55,28,High Risk,Normal,Moderate
+1.93,2.03,232,50,35,High Risk,High Risk,Moderate
+0.56,2.14,120,71,31,Normal,High Risk,Hydrated
+1.06,0.41,197,48,33,Mild,Normal,Moderate
+0.6,1.95,234,53,30,Normal,High Risk,Moderate
+0.34,2.05,248,48,30,Normal,High Risk,Moderate
+2.62,1.22,174,70,32,High Risk,Mild,Hydrated
+2.2,2.25,158,60,32,High Risk,High Risk,Moderate
+1.44,2.11,167,61,34,Mild,High Risk,Hydrated
+2.8,1.48,188,37,28,High Risk,Mild,Dehydrated
+1.36,0.28,250,35,29,Mild,Normal,Dehydrated
+1.14,0.4,242,73,34,Mild,Normal,Hydrated
+0.72,1.11,140,39,34,Normal,Mild,Dehydrated
+1.03,0.92,232,44,32,Mild,Mild,Dehydrated
+2.1,1.36,188,54,35,High Risk,Mild,Moderate
+0.79,0.67,135,43,29,Normal,Normal,Dehydrated
+0.66,1.99,101,43,28,Normal,High Risk,Dehydrated
+1.19,1.35,199,58,32,Mild,Mild,Moderate
+0.36,2.4,243,47,31,Normal,High Risk,Moderate
+2.59,0.64,240,58,28,High Risk,Normal,Moderate
+1.4,0.61,114,70,28,Mild,Normal,Hydrated
+2.74,1.84,212,62,33,High Risk,High Risk,Hydrated
+1.3,1.04,195,50,29,Mild,Mild,Moderate
+0.35,0.71,135,59,30,Normal,Normal,Moderate
+2.42,1.74,106,42,33,High Risk,High Risk,Dehydrated
+2.37,1.38,223,74,31,High Risk,Mild,Hydrated
+0.83,0.8,206,52,34,Normal,Normal,Moderate
+2.13,1.67,209,42,28,High Risk,High Risk,Dehydrated
+2.45,1.14,199,56,35,High Risk,Mild,Moderate
+2.67,2.35,183,39,34,High Risk,High Risk,Dehydrated
+1.24,1.78,118,73,28,Mild,High Risk,Hydrated
+1.08,2.29,175,53,29,Mild,High Risk,Moderate
+1.35,1.97,171,53,30,Mild,High Risk,Moderate
+2.51,1.77,173,63,31,High Risk,High Risk,Hydrated
+0.44,2.43,228,54,32,Normal,High Risk,Moderate
+2.45,1.18,233,62,35,High Risk,Mild,Hydrated
+2.81,1.65,184,53,35,High Risk,High Risk,Moderate
+2.67,1.15,148,73,31,High Risk,Mild,Hydrated
+2.23,1.36,135,45,29,High Risk,Mild,Dehydrated
+2.92,0.34,134,44,28,High Risk,Normal,Dehydrated
+1.25,0.21,128,75,34,Mild,Normal,Hydrated
+2.33,0.73,236,55,32,High Risk,Normal,Moderate
+1.36,0.61,125,63,31,Mild,Normal,Hydrated
+1.5,1.42,137,72,35,Mild,Mild,Hydrated
+1.67,1.7,153,52,34,Mild,High Risk,Moderate
+1.13,1.49,213,44,31,Mild,Mild,Dehydrated
+1.04,1.39,221,72,28,Mild,Mild,Hydrated
+2.93,0.75,146,54,28,High Risk,Normal,Moderate
+1.11,1.43,100,66,32,Mild,Mild,Hydrated
+1.63,1.0,142,71,34,Mild,Mild,Hydrated
+0.73,1.99,102,74,31,Normal,High Risk,Hydrated
+0.6,2.25,220,68,32,Normal,High Risk,Hydrated
+1.98,0.44,103,74,28,High Risk,Normal,Hydrated
+1.47,1.46,240,37,28,Mild,Mild,Dehydrated
+1.64,1.05,121,41,31,Mild,Mild,Dehydrated
+0.79,1.32,224,64,33,Normal,Mild,Hydrated
+1.48,1.31,138,38,30,Mild,Mild,Dehydrated
+0.37,1.66,105,48,31,Normal,High Risk,Moderate
+2.96,1.11,134,42,34,High Risk,Mild,Dehydrated
+2.88,0.27,156,37,31,High Risk,Normal,Dehydrated
+0.38,1.29,250,36,30,Normal,Mild,Dehydrated
+1.26,1.45,152,59,31,Mild,Mild,Moderate
+2.0,1.38,241,43,34,High Risk,Mild,Dehydrated
+2.98,1.93,165,51,31,High Risk,High Risk,Moderate
+1.48,1.18,196,62,32,Mild,Mild,Hydrated
+1.59,2.4,223,37,35,Mild,High Risk,Dehydrated
+1.44,0.93,128,61,34,Mild,Mild,Hydrated
+0.38,1.05,188,62,28,Normal,Mild,Hydrated
+1.55,1.41,189,69,32,Mild,Mild,Hydrated
+0.55,1.96,191,59,35,Normal,High Risk,Moderate
+1.37,0.57,193,40,28,Mild,Normal,Dehydrated
+1.27,0.2,150,56,28,Mild,Normal,Moderate
+2.68,2.04,129,71,30,High Risk,High Risk,Hydrated
+2.81,0.96,149,45,30,High Risk,Mild,Dehydrated
+0.6,0.66,110,38,31,Normal,Normal,Dehydrated
+1.42,0.65,224,57,28,Mild,Normal,Moderate
+1.18,1.18,239,69,33,Mild,Mild,Hydrated
+0.57,1.02,199,36,34,Normal,Mild,Dehydrated
+2.23,2.1,105,72,35,High Risk,High Risk,Hydrated
+1.15,2.5,100,60,33,Mild,High Risk,Moderate
+2.03,0.92,155,56,34,High Risk,Mild,Moderate
+2.81,0.53,236,52,35,High Risk,Normal,Moderate
+2.94,1.18,170,49,34,High Risk,Mild,Moderate
+1.56,0.35,182,71,32,Mild,Normal,Hydrated
+2.26,2.15,179,72,28,High Risk,High Risk,Hydrated
+1.51,1.19,214,58,29,Mild,Mild,Moderate
+2.56,1.14,235,52,30,High Risk,Mild,Moderate
+1.91,0.77,235,75,33,High Risk,Normal,Hydrated
+1.76,1.9,221,46,31,Mild,High Risk,Moderate
+0.82,0.34,112,46,30,Normal,Normal,Moderate
+2.37,1.79,200,55,29,High Risk,High Risk,Moderate
+0.79,0.72,138,47,33,Normal,Normal,Moderate
+1.56,1.46,221,44,34,Mild,Mild,Dehydrated
+2.03,0.79,101,42,32,High Risk,Normal,Dehydrated
+2.47,1.34,172,44,30,High Risk,Mild,Dehydrated
+0.76,2.03,177,57,30,Normal,High Risk,Moderate
+0.76,2.45,128,52,30,Normal,High Risk,Moderate
+1.72,2.13,156,50,31,Mild,High Risk,Moderate
+1.38,0.35,226,50,28,Mild,Normal,Moderate
+0.46,2.29,201,61,29,Normal,High Risk,Hydrated
+0.35,0.4,235,51,34,Normal,Normal,Moderate
+1.63,0.53,212,63,33,Mild,Normal,Hydrated
+0.86,0.49,137,36,29,Normal,Normal,Dehydrated
+2.84,2.22,189,46,35,High Risk,High Risk,Moderate
+0.75,1.93,121,37,35,Normal,High Risk,Dehydrated
+2.17,1.2,122,73,34,High Risk,Mild,Hydrated
+1.92,0.9,163,38,33,High Risk,Mild,Dehydrated
+0.42,0.45,249,74,35,Normal,Normal,Hydrated
+2.93,1.49,117,64,31,High Risk,Mild,Hydrated
+0.67,0.38,185,62,28,Normal,Normal,Hydrated
+1.06,1.37,127,49,34,Mild,Mild,Moderate
+2.73,1.09,217,66,32,High Risk,Mild,Hydrated
+2.86,2.15,156,37,31,High Risk,High Risk,Dehydrated
+1.23,1.5,244,55,31,Mild,Mild,Moderate
+2.52,1.25,214,56,34,High Risk,Mild,Moderate
+2.1,2.34,100,41,29,High Risk,High Risk,Dehydrated
+1.23,0.93,233,65,29,Mild,Mild,Hydrated
+1.02,1.12,220,42,33,Mild,Mild,Dehydrated
+1.69,1.23,110,70,31,Mild,Mild,Hydrated
+2.48,1.02,158,67,34,High Risk,Mild,Hydrated
+1.43,0.68,240,72,28,Mild,Normal,Hydrated
+0.43,0.66,175,65,29,Normal,Normal,Hydrated

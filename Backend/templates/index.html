@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breath-Based Disease Detection Dashboard</title>
+  <style>
+    
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    header {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 25px;
+      position: relative;
+      z-index: 1;
+    }
+
+    header h1 {
+      color: #fff;
+      background: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 15px 25px;
+      border-radius: 12px;
+      font-size: 26px;
+      text-transform: uppercase;
+      text-shadow: 2px 2px 6px rgba(0,0,0,0.6);
+    }
+
+    .dashboard {
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      border: 3px solid #444;
+      padding: 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.35);
+      width: 480px;
+      margin-right: 50px;
+      animation: fadeIn 1.2s ease-in-out;
+      position: relative;
+      z-index: 1;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #222;
+      font-size: 22px;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+    }
+
+    .card {
+      margin: 15px 0;
+      padding: 18px 20px;
+      border-radius: 15px;
+      color: #fff;
+      font-size: 18px;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 18px rgba(0,0,0,0.4);
+    }
+
+    .normal { background: #4caf50; }
+    .mild { background: #ff9800; }
+    .severe { background: #f44336; }
+    .hydrated { background: #2196f3; }
+    .dehydrated { background: #9c27b0; }
+
+    #sensorData {
+      background: #333;
+      color: #fff;
+      text-align: center;
+      border-radius: 10px;
+      padding: 10px;
+      margin-top: 10px;
+      font-size: 16px;
+      transition: background 0.3s ease;
+    }
+
+    #connectionStatus {
+      text-align: center;
+      margin-top: 12px;
+      color: #000;
+      font-weight: bold;
+      font-size: 16px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        align-items: center;
+        padding: 20px;
+      }
+      .dashboard {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+ <!-- 🖼 Background Image -->
+<div id="bgImage"></div>
+
+<style>
+  #bgImage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("{{ url_for('static', filename='good_health.jpg') }}");
+    background-size: cover;      /* Cover the whole screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    z-index: -1;
+    filter: brightness(0.6);     /* Optional: dim for better text visibility */
+  }
+</style>
+
+  <header>
+    <h1>Non-Invasive Breath-Based Disease Detection & Stage Prediction</h1>
+  </header>
+
+  <div class="dashboard">
+    <h2>Patient Dashboard</h2>
+
+    <div id="diabetesResult" class="card normal">
+      Diabetes Status: Normal
+    </div>
+    <div id="kidneyResult" class="card normal">
+      Kidney Status: Normal
+    </div>
+    <div id="hydrationResult" class="card hydrated">
+      Hydration: Hydrated
+    </div>
+
+    <div id="sensorData">
+      Sensors: Acetone: -- ppm | Ammonia: -- ppm | Temp: -- °C | Humidity: -- % | VOC: --
+    </div>
+
+    <div id="connectionStatus">🔄 Fetching live data...</div>
+  </div>
+
+  <script>
+    // Animation for updates
+    function highlightChange(element) {
+      element.style.transition = "background 0.5s, transform 0.5s";
+      element.style.transform = "scale(1.05)";
+      setTimeout(() => { element.style.transform = "scale(1)"; }, 400);
+    }
+
+    // Update Dashboard Cards
+    function updateDashboard(diabetes, kidney, hydration) {
+      const diabetesDiv = document.getElementById("diabetesResult");
+      const kidneyDiv = document.getElementById("kidneyResult");
+      const hydrationDiv = document.getElementById("hydrationResult");
+
+      diabetesDiv.className = "card";
+      kidneyDiv.className = "card";
+      hydrationDiv.className = "card";
+
+      // Diabetes
+      if (diabetes === "Normal") diabetesDiv.classList.add("normal");
+      else if (diabetes === "Mild") diabetesDiv.classList.add("mild");
+      else diabetesDiv.classList.add("severe");
+      diabetesDiv.innerHTML = `Diabetes Status: ${diabetes}`;
+      highlightChange(diabetesDiv);
+
+      // Kidney
+      if (kidney === "Normal") kidneyDiv.classList.add("normal");
+      else if (kidney === "Mild") kidneyDiv.classList.add("mild");
+      else kidneyDiv.classList.add("severe");
+      kidneyDiv.innerHTML = `Kidney Status: ${kidney}`;
+      highlightChange(kidneyDiv);
+
+      // Hydration
+      if (hydration === "Hydrated") hydrationDiv.classList.add("hydrated");
+      else hydrationDiv.classList.add("dehydrated");
+      hydrationDiv.innerHTML = `Hydration: ${hydration}`;
+      highlightChange(hydrationDiv);
+    }
+
+    // Fetch Live Status
+    async function fetchStatus() {
+      const statusEl = document.getElementById("connectionStatus");
+      const sensorEl = document.getElementById("sensorData");
+
+      try {
+        const response = await fetch("/get_status");
+        const data = await response.json();
+
+        updateDashboard(data.diabetes, data.kidney, data.hydration);
+
+        // Update live sensor readings
+        sensorEl.innerHTML = `
+          Sensors: Acetone: ${data.acetone ?? '--'} ppm |
+          Ammonia: ${data.ammonia ?? '--'} ppm |
+          Temp: ${data.temperature ?? '--'} °C |
+          Humidity: ${data.humidity ?? '--'} % |
+          VOC: ${data.voc ?? '--'}
+        `;
+
+        highlightChange(sensorEl);
+        statusEl.textContent = "✅ Live data received (" + new Date().toLocaleTimeString() + ")";
+      } catch (err) {
+        console.error("Error fetching status:", err);
+        statusEl.textContent = "⚠ Lost connection to backend";
+      }
+    }
+
+    // Fetch every 3 seconds
+    setInterval(fetchStatus, 3000);
+    fetchStatus();
+  </script>
+</body>
+</html>
