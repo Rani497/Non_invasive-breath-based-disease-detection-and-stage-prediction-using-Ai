@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Breath AI</title>
+
+<style>
+/* Background Animation */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  background: linear-gradient(-45deg, #0f2027, #203a43, #2c5364, #00c6ff);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+  0% {background-position: 0%}
+  50% {background-position: 100%}
+  100% {background-position: 0%}
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  font-size: 20px;
+}
+
+.logo {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 80px;
+}
+
+.hero h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(0,255,255,0.6);
+}
+
+.hero p {
+  font-size: 20px;
+  opacity: 0.8;
+}
+
+/* Glass Card */
+.glass {
+  margin: 60px auto;
+  width: 80%;
+  max-width: 900px;
+  padding: 40px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 0 30px rgba(0,0,0,0.3);
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 250px;
+  margin: 20px;
+}
+
+/* Button */
+.btn {
+  margin-top: 30px;
+  padding: 15px 40px;
+  font-size: 18px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(45deg, #00f2fe, #4facfe);
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  box-shadow: 0 0 20px #00f2fe;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 40px #00f2fe;
+}
+
+/* Status Box */
+.status {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #00ffcc;
+}
+
+/* Footer */
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  opacity: 0.7;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<div class="navbar">
+  <div class="logo">🌬 Breath AI</div>
+  <div>Smart Health Monitoring</div>
+</div>
+
+<!-- Hero -->
+<div class="hero">
+  <h1>AI Breath Disease Detection</h1>
+  <p>Non-Invasive | Real-Time | Intelligent</p>
+</div>
+
+<!-- Glass Container -->
+<div class="glass">
+
+  <div class="features">
+    <div class="feature">
+      <h3>🧠 AI Analysis</h3>
+      <p>Advanced ML models detect disease patterns</p>
+    </div>
+
+    <div class="feature">
+      <h3>🌡 Sensor Data</h3>
+      <p>MQ135, MQ3, VOC sensors for accurate readings</p>
+    </div>
+
+    <div class="feature">
+      <h3>⚡ Instant Results</h3>
+      <p>Real-time predictions with stage detection</p>
+    </div>
+  </div>
+
+  <!-- Button -->
+  <button class="btn" onclick="connectDevice()">Connect Device</button>
+
+  <!-- Status -->
+  <div class="status" id="status">🔴 Device not connected</div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+  © 2026 Breath AI 
+</div>
+
+<script>
+function connectDevice() {
+  document.getElementById("status").innerHTML = "🟡 Connecting to device...";
+
+  setTimeout(() => {
+    document.getElementById("status").innerHTML = "🟢 Device Connected!";
+    
+    setTimeout(() => {
+      window.location.href = "/dashboard";
+    }, 1500);
+
+  }, 2000);
+}
+</script>
+
+</body>
+</html>
