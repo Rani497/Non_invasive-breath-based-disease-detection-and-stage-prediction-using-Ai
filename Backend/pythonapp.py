@@ -106,7 +106,7 @@ def get_status():
 
 # ---------------- Auto Open Browser ----------------
 def open_browser():
-    webbrowser.open_new("http://127.0.0.1:5000/")  # opens landing page
+    webbrowser.open_new("http://10.210.59.159:5000/")  # opens landing page
 
 # ---------------- Run App ----------------
 if __name__ == '__main__':
