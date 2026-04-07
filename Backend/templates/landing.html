@@ -22,6 +22,16 @@ body {
   100% {background-position: 0%}
 }
 
+/* College Name */
+.college {
+  text-align: center;
+  font-size: 20px;   /* reduced size */
+  font-weight: bold;
+  margin-top: 15px;
+  letter-spacing: 1px;
+  color: #00ffff;
+}
+
 /* Navbar */
 .navbar {
   display: flex;
@@ -32,29 +42,28 @@ body {
 
 .logo {
   font-weight: bold;
-  letter-spacing: 1px;
 }
 
 /* Hero */
 .hero {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 40px;
 }
 
 .hero h1 {
-  font-size: 55px;
+  font-size: 40px;
   margin-bottom: 10px;
   text-shadow: 0 0 20px rgba(0,255,255,0.6);
 }
 
 .hero p {
-  font-size: 20px;
+  font-size: 18px;
   opacity: 0.8;
 }
 
 /* Glass Card */
 .glass {
-  margin: 60px auto;
+  margin: 50px auto;
   width: 80%;
   max-width: 900px;
   padding: 40px;
@@ -112,9 +121,18 @@ body {
 
 /* Footer */
 .footer {
-  margin-top: 50px;
+  margin-top: 60px;
   text-align: center;
-  opacity: 0.7;
+  line-height: 1.8;
+}
+
+.footer h3 {
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  margin: 5px 0;
 }
 </style>
 
@@ -122,15 +140,20 @@ body {
 
 <body>
 
+<!-- College Name -->
+<div class="college">
+  Nalla Malla Reddy Engineering College
+</div>
+
 <!-- Navbar -->
 <div class="navbar">
-  <div class="logo">🌬 Breath AI</div>
+  <div class="logo"> Breath AI</div>
   <div>Smart Health Monitoring</div>
 </div>
 
 <!-- Hero -->
 <div class="hero">
-  <h1>Non-Invasive Breath Based Disease Detection and Stage Prediction  Using AI</h1>
+  <h1>Non-Invasive Breath Based Disease Detection and Stage Prediction Using AI</h1>
   <p>Non-Invasive | Real-Time | Intelligent</p>
 </div>
 
@@ -145,7 +168,7 @@ body {
 
     <div class="feature">
       <h3>🌡 Sensor Data</h3>
-      <p>MQ3, MQ135, Sgp40,Dht22 VOC sensors for accurate readings</p>
+      <p>MQ3, MQ135, SGP40, DHT22 VOC sensors</p>
     </div>
 
     <div class="feature">
@@ -168,7 +191,6 @@ body {
   <div id="videoContainer">
     <video width="80%" controls>
       <source src="{{ url_for('static', filename='demo.mp4') }}" type="video/mp4">
-      Your browser does not support video.
     </video>
   </div>
 
@@ -176,8 +198,11 @@ body {
 
 <!-- Footer -->
 <div class="footer">
- Under Guidance Of | 
-  Mrs.N.Ramya      |
+  <h3>Project Guide</h3>
+  <p>Mrs. N. Ramya</p>
+
+  <h3>Team Members</h3>
+  <p>G. Rani | M. Poojitha | K. Kushal | G. Ramesh</p>
 </div>
 
 <script>
